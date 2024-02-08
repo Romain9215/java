@@ -1,12 +1,15 @@
 package fr.epita.assistants.drawing;
 
-public class Entity {
+import lombok.Getter;
+
+public class Entity implements IDrawable{
 
     private long id;
-     private long SEQUENCE;
+     private long SEQUENCE = 0;
     public Entity()
     {
-
+        SEQUENCE++;
+        id = SEQUENCE;
     }
 
     public long getId()
@@ -16,7 +19,7 @@ public class Entity {
 
     public void draw()
     {
-        return;
+        
     }
 
 

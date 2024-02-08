@@ -12,7 +12,21 @@ public class Rectangle extends Sharp{
 
     public void draw()
     {
-
+        for (int i = 0; i < length; i++)
+        {
+            for (int j = 0; j < width; j++)
+            {
+                if (i == 0 || i == length - 1 || j == 0 ||j == width - 1)
+                {
+                    System.out.print("# ");
+                }
+                else
+                {
+                    System.out.print("  ");
+                }
+            }
+            System.out.println();
+        }
     }
 
 }
