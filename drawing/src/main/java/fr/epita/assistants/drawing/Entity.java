@@ -19,7 +19,7 @@ public class Entity implements IDrawable{
 
     public void draw()
     {
-        
+
     }
 
 
