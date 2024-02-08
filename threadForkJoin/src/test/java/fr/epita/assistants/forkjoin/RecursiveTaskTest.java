@@ -16,6 +16,13 @@ public class RecursiveTaskTest {
                 new double[]{10, 52, 100, 50, 74, 25},
                 new double[]{10, 52, 100, 50, 74, 25},
                 new double[]{10, 52, 100, 50, 74, 25},
+                new double[]{10, 52, 100, 50, 74, 25},
+                new double[]{10, 52, 100, 50, 74, 25},
+                new double[]{10, 52, 100, 50, 74, 25},
+                new double[]{10, 52, 100, 50, 74, 25},
+                new double[]{10, 52, 100, 50, 74, 25},
+                new double[]{10, 52, 100, 50, 74, 25},
+                new double[]{10, 52, 100, 50, 74, 25},
                 new double[]{10, 52, 100, 50, 74, 25}
         };
         double expected = 51.83;
